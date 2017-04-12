@@ -1,12 +1,13 @@
 /*
  * COPYRIGHT. ITALO VENDRAMETO 2017. ALL RIGHTS RESERVED.
  */
-package br.eti.vendrameto.desafio.mars.constants;
+package br.eti.vendrameto.desafio.mars.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import br.eti.vendrameto.desafio.mars.constants.MarsConstants;
 import br.eti.vendrameto.desafio.mars.exceptions.InvalidActionException;
 import br.eti.vendrameto.desafio.mars.exceptions.NavigationErrorException;
 import br.eti.vendrameto.desafio.mars.model.Region;

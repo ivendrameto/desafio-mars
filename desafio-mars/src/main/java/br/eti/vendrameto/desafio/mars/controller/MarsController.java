@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.eti.vendrameto.desafio.mars.constants.MarsService;
 import br.eti.vendrameto.desafio.mars.exceptions.InvalidActionException;
 import br.eti.vendrameto.desafio.mars.exceptions.NavigationErrorException;
 import br.eti.vendrameto.desafio.mars.model.Position;
 import br.eti.vendrameto.desafio.mars.model.Region;
+import br.eti.vendrameto.desafio.mars.services.MarsService;
 
 /**
  * @author (iVedrameto) Italo Vendrameto

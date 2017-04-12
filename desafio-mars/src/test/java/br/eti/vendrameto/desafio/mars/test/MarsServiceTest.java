@@ -10,11 +10,11 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.eti.vendrameto.desafio.mars.constants.MarsService;
 import br.eti.vendrameto.desafio.mars.exceptions.InvalidActionException;
 import br.eti.vendrameto.desafio.mars.exceptions.NavigationErrorException;
 import br.eti.vendrameto.desafio.mars.model.Position;
 import br.eti.vendrameto.desafio.mars.model.Region;
+import br.eti.vendrameto.desafio.mars.services.MarsService;
 
 /**
  * @author (iVedrameto) Italo Vendrameto
